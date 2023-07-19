@@ -1,5 +1,6 @@
 import React from 'react'
 import style from 'styled-components'
+import {Link} from 'react-router-dom'
 
 const Works = () => {
   return (
@@ -21,7 +22,7 @@ const Works = () => {
                     
                     <span className='text'>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
                 </div>
-                <button>ABOUT US</button>
+                <Button to="/about">ABOUT US</Button>
                 </div>
             </Right>
         </Wrapper>
@@ -130,19 +131,25 @@ div.container {
             justify-content: center;
         }
     };
-    button {
-        margin-top: 40px;
-        width: 300px;
-        height: 60px;
-        border: 0;
-        border-radius: 5px;
-        background-color: #E39D1B;
-        color: white;
-        @media screen and (max-width: 364px){
-           width: 250px
-            };
-    }
+    
 };
+`
+const Button = style(Link)`
+margin-top: 40px;
+width: 280px;
+padding: 15px 0;
+border: 0;
+border-radius: 5px;
+background-color: #E39D1B;
+color: white;
+cursor: pointer;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content:center;
+@media screen and (max-width: 364px){
+   width: 250px
+    };
 `
 const Image = style.img`
 width: 90%;

@@ -51,6 +51,10 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    @media screen and (max-width: 343px){
+        font-size: 20px;
+    }
 };
 span {
     width: 100%;

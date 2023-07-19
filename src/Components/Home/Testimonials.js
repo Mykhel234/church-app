@@ -36,7 +36,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 80px 0;
-background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url("images/bg4.jpg");
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bg4.jpg");
 background-position: 30% 20%;
 @media screen and (max-width: 724px){
     background-position: 38% 20%;

@@ -48,7 +48,7 @@ export default Hero2
 
 const Container = style.div`
 width: 100%;
-height: 100vh;
+// height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -57,6 +57,7 @@ font-family: 'Alice', serif;
 background: url("images/mary061.jpg");
 background-position: 50% 40%;
 // background: rgb(70, 46, 165)
+padding: 200px 0;
 `
 const Wrapper = style.div`
 width: 85%;

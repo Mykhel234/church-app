@@ -66,7 +66,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-// background: red;
+background: rgb(227, 227, 227);
 padding: 20px 0;
 `
 const Wrapper = style.div`
@@ -89,10 +89,14 @@ flex-direction: column;
 justify-content: center;
 span {
     font-weight: bold;
+    margin-bottom: -5px;
 };
 div{
     font-weight: bold;
     font-size: 50px;
+    @media screen and (max-width: 364px){
+        font-size: 40px;
+    }
 }
 `
 const Right = style.div`
@@ -141,7 +145,7 @@ justify-content: space-around;
 `
 const Image = style.div`
 width: 100%;
-height: 400px;
+height: 350px;
 
 img {
     width: 100%;
@@ -251,7 +255,7 @@ img {
 }
 `
 const Title = style.div`
-width: 60%;
+width: 50%;
 height: 100%;
 // background: blue;
 display: flex;

@@ -97,20 +97,27 @@ span {
     justify-content: center;
     align-items: center;
     text-align-center;
-    @media screen and (max-width: 1040px){
+    @media screen and (max-width: 1005px){
+        // font-size: 45px;
+        width: 55%;
+    };
+    @media screen and (max-width: 905px){
+        // font-size: 35px;
+        width: 70%;
+    };
+    @media screen and (max-width: 706px){
+        // font-size: 30px;
+        // line-height: 35px;
+        width: 80%;
+    };
+    @media screen and (max-width: 582px){
         font-size: 45px;
+        width: 90%;
     };
-    @media screen and (max-width: 936px){
+    @media screen and (max-width: 570px){
         font-size: 35px;
-    };
-    @media screen and (max-width: 742px){
-        font-size: 30px;
         line-height: 35px;
     };
-    // @media screen and (max-width: 742px){
-    //     font-size: 20px;
-    // };
-    
 };
 `
 const SectionWrap = style.div`
@@ -171,7 +178,7 @@ p {
 }
 `
 const Button = style.button`
-padding: 20px 80px;
+padding: 15px 80px;
 border: 0;
 border-radius: 3px;
 // background: #1D1008;

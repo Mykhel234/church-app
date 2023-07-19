@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 const ArticlePage = () => {
   return (
     <Container>
+        <Heading>Faith Corner</Heading>
         <Wrapper>
-            <Heading>Faith Corner</Heading>
             <Contents>
                 <Section to ={"/article/Hope"}>
                     <img src={"images/BG3.jpg"}/>
@@ -89,8 +89,10 @@ export default ArticlePage
 const Container = style.div`
 width: 100%;
 // height: 100vh;
-background: #F8F5EB;
+// background:  rgb(207, 207, 207);
+background: linear-gradient(rgba(255, 0, 255, 0.3), rgba(0, 0, 0, 0.5)), url("./images/bg5.jpg");
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 100px 0;
@@ -106,9 +108,11 @@ align-items: center;
 `
 const Heading = style.div`
 width: 100%;
-// height: 20%;
+color: white;
+height: 15vh;
 padding: 50px 0;
-// background: #00040;
+// background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/Church-BG3.png");
+// background: url("./images/Church-BG3.png");
 font-size: 40px;
 font-weight: bold;
 display: flex;
@@ -132,7 +136,7 @@ width: 340px;
 border-radius: 5px;
 margin-top: 50px;
 text-decoration: none;
-color: black;
+color white;
 :hover {
     img{
         cursor: pointer;
@@ -153,6 +157,9 @@ img {
     border-radius: 5px;
     // background: green;
     object-fit: cover;
+    @media screen and (max-width: 360px){
+        width: 300px
+    };
 };
 div.wrap {
     width: 100%;

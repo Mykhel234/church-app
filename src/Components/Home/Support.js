@@ -48,7 +48,13 @@ flex-direction: column;
 // align-items: center;
 justify-content: center;
 // background: lavender;
-@media screen and (max-width:1050px){
+@media screen and (max-width:1070px){
+    width: 80%;
+};
+@media screen and (max-width:984px){
+    width: 90%;
+};
+@media screen and (max-width:672px){
     width: 100%;
 };
 span {
@@ -60,22 +66,29 @@ div.title {
     line-height: 50px;
     // width: 80%;
     margin-bottom: 20px;
+    @media screen and (max-width:584px){
+        font-size: 45px;
+    };
 };
+
 button.gold {
     padding: 20px 70px;
     margin-right: 20px;
-    border: 0;
+    border: solid 3px #E39D1B;
     border-radius: 3px;
     font-weight: bold;
     background-color: #E39D1B;
     color: white;
-    @media screen and (max-width:528px){
+    @media screen and (max-width:524px){
         padding: 20px 50px;
     };
-    @media screen and (max-width:528px){
-        padding: 20px 30px;
+    @media screen and (max-width:434px){
+        padding: 20px 40px;
     };
-    @media screen and (max-width:528px){
+    @media screen and (max-width:398px){
+        padding: 15px 30px;
+    };
+    @media screen and (max-width:352px){
         padding: 15px 20px;
     };
     :hover {
@@ -89,14 +102,17 @@ button.white {
     font-weight: bold;
     background-color: transparent;
     color: white;
-    @media screen and (max-width:528px){
+    @media screen and (max-width:524px){
         padding: 20px 50px;
     };
     
-    @media screen and (max-width:528px){
-        padding: 20px 30px;
+    @media screen and (max-width:434px){
+        padding: 20px 40px;
     };
-    @media screen and (max-width:528px){
+    @media screen and (max-width:498px){
+        padding: 15px 30px;
+    };
+    @media screen and (max-width:352px){
         padding: 15px 20px;
     };
     :hover {

@@ -86,14 +86,17 @@ div.title {
     };
     @media screen and (max-width: 936px){
         font-size: 35px;
+        width: 90%;
     };
     @media screen and (max-width: 742px){
         font-size: 30px;
         line-height: 35px;
+        width: ;
     };
-    // @media screen and (max-width: 742px){
-    //     font-size: 20px;
-    // };
+    @media screen and (max-width: 543px){
+        font-size: 25px;
+        
+    };
 };
 span.modern {
     margin: 20px 0;
