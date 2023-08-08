@@ -23,7 +23,7 @@ export default Support
 
 const Container = style.div`
 width: 100%;
-height: 100vh;
+height: 60vh;
 background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url("/images/BG2.jpg");
 background-repeat: no-repeat;
 background-position: top;
@@ -42,10 +42,10 @@ justify-content: space-between;
 `
 const Contents = style.div`
 width: 50%;
-height: 100%;
+// height: 100%;
 display: flex;
 flex-direction: column;
-// align-items: center;
+align-items: center;
 justify-content: center;
 // background: lavender;
 @media screen and (max-width:1070px){

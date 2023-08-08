@@ -60,13 +60,14 @@ export default Header1
 
 const Container = style.div`
 width: 100%;
-height: 100px;
+height: 90px;
 // background: red;
 backdrop-filter: blur(100px);
 // -webkit-backdrop-filter: blur(12px);
 color: white;
 display: flex;
 justify-content: center;
+align-items: center;
 font-family: 'Alice', serif;
 padding-top: 10px;
 position: fixed;
@@ -88,7 +89,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-decoration: none;
-color: white
+color: white;
+// background: red;
 `
 const Navigations = style.div`
 width: 50%;

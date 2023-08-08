@@ -17,13 +17,13 @@ const About = () => {
             <Divisions>
             <Aims to='/about'>
                 <div className='division'>
-                    <div><img src='images/BGM.jpg'/></div>
+                    <div><img src='images/BGM.jpg' alt=''/></div>
                     <span>Our Mission <button><FaRegArrowAltCircleRight size={"25px"} color={"white"}/></button></span>
                 </div>
             </Aims>
             <Aims to="/">
                 <div className='division'>
-                    <div><img src='images/BG3.jpg'/></div>
+                    <div><img src='images/BG3.jpg' alt=''/></div>
                     <span>Our Spirituality <button><FaRegArrowAltCircleRight size={"25px"} color={"white"}/></button></span>
                 </div>
             </Aims>
@@ -133,7 +133,7 @@ color: white;
 div {
     width: 100%;
     height: 300px;
-    background: red;
+    // background: red;
     border-radius: 5px;
     img{
         width: 100%;
